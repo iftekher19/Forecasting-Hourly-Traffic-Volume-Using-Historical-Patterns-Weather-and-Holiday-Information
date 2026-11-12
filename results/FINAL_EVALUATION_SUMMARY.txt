@@ -1,0 +1,22 @@
+CSE437 PHASE 4 - FINAL EVALUATION SUMMARY
+=======================================================
+
+Model-ready observations: 28,804
+Training observations: 20,162
+Validation observations: 4,321
+Test observations: 4,321
+
+BEST MODEL: XGBoost
+MAE: 130.46 vehicles/hour
+RMSE: 202.48 vehicles/hour
+MAPE: 5.35%
+sMAPE: 5.22%
+R2: 0.9896
+MASE: 0.2272
+
+MAE improvement over hour-of-week climatology: 47.08%
+RMSE improvement over hour-of-week climatology: 53.09%
+R2 gain over hour-of-week climatology: 0.0370
+
+Note: The LSTM run was stopped early for computational/time constraints after approximately 50 epochs. No LSTM test score is reported here.
+Note: No new SARIMAX result is reported in this fast evaluation.
